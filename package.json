@@ -1,0 +1,22 @@
+{
+  "name": "module-project",
+  "version": "1.0.0",
+  "description": "HTML/CSS module project",
+  "main": "index.js",
+  "scripts": {
+    "dev:home": "pug -w src/index.pug --out .",
+    "dev:about": "pug -w src/about.pug --out .",
+    "dev:contact": "pug -w src/contacts.pug --out ."
+  },
+  "keywords": [
+    "pug",
+    "scss",
+    "html",
+    "css"
+  ],
+  "author": "mariannaokrema2017@gmail.com okrema marianna",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
+}
