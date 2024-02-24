@@ -6,7 +6,9 @@
   "scripts": {
     "dev:home": "pug -w src/index.pug --out .",
     "dev:about": "pug -w src/about.pug --out .",
-    "dev:contact": "pug -w src/contacts.pug --out ."
+    "dev:service": "pug -w src/service.pug --out .",
+    "dev:portfolio": "pug -w src/portfolio.pug --out .",
+    "dev:contacts": "pug -w src/contacts.pug --out ."
   },
   "keywords": [
     "pug",
